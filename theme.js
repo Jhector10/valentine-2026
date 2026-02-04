@@ -18,4 +18,4 @@ function applyTheme() {
 }
 
 // Apply theme when the page loads
-window.addEventListener('DOMContentLoaded', applyTheme); 
+window.addEventListener('DOMContentLoaded', applyTheme);

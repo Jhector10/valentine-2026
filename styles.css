@@ -1,4 +1,5 @@
 /* CSS Variables - Will be updated by JavaScript */
+
 :root {
     /* Colors */
     --background-color-1: #ffafbd;
@@ -6,7 +7,6 @@
     --button-color: #ff6b6b;
     --button-hover: #ff8787;
     --text-color: #ff4757;
-
     /* Animations */
     --float-duration: 15s;
     --float-distance: 50px;
@@ -44,7 +44,8 @@ body {
     z-index: 1;
 }
 
-.heart, .bear {
+.heart,
+.bear {
     position: absolute;
     font-size: 2rem;
     animation: float var(--float-duration) linear infinite;
@@ -146,7 +147,9 @@ body {
     box-shadow: 0 6px 20px rgba(255, 107, 107, 0.3);
 }
 
+
 /* Ensure track is visible */
+
 .slider::-webkit-slider-runnable-track,
 .slider::-moz-range-track {
     width: 100%;
@@ -156,7 +159,9 @@ body {
     border: 2px solid rgba(255, 255, 255, 0.5);
 }
 
+
 /* Ensure thumb is properly styled */
+
 .slider::-webkit-slider-thumb {
     -webkit-appearance: none;
     width: 35px;
@@ -255,7 +260,8 @@ body {
     }
 }
 
-h1, h2 {
+h1,
+h2 {
     font-family: Arial, sans-serif;
     font-weight: 700;
 }
@@ -278,7 +284,6 @@ h2 {
     text-shadow: 2px 2px 4px rgba(255, 71, 87, 0.3);
 }
 
-
 .celebration-text {
     font-size: 3em;
     color: #ff4757;
@@ -288,9 +293,24 @@ h2 {
     text-shadow: 2px 2px 4px rgba(255, 71, 87, 0.3);
 }
 
+.celebration-photo {
+    display: none;
+    max-width: 100%;
+    width: 320px;
+    height: auto;
+    border-radius: 16px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+    margin: 24px auto;
+    object-fit: cover;
+}
+
 @keyframes subtle-hint {
-    0% { opacity: 0.2; }
-    100% { opacity: 0.3; }
+    0% {
+        opacity: 0.2;
+    }
+    100% {
+        opacity: 0.3;
+    }
 }
 
 .music-controls {
@@ -309,10 +329,10 @@ h2 {
     cursor: pointer;
     font-size: 16px;
     transition: all 0.3s ease;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
 .music-btn:hover {
     transform: scale(1.05);
     background: var(--secondary-color);
-} 
+}
