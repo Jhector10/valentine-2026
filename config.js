@@ -49,8 +49,8 @@ const CONFIG = {
 
     // Messages that appear after they say "Yes!"
     celebration: {
-        title: "LETS GOOOOOOOOO",
-        message: "Now come get your big warm hug and a huge kiss!",
+        title: "Come get your big hug and a huge kiss!",
+        message: "I love you more than you'll ever know",
         photo: "photos/IMG_2528.jpg", // Path to photo (leave empty "" to hide)
         emojis: "🤗❤️💕" // These will bounce around
     },
